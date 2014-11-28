@@ -5,8 +5,8 @@
 
 # If you want to use different themes and features,
 # you can load the corresponding files here:
-#source ~/.config/liquidprompt/nojhan.theme
-#LP_PS1_FILE="~/.config/liquidprompt/nojhan.ps1"
+source ~/.liquid.theme
+LP_PS1_FILE="~/.liquid.ps1"
 
 #############
 # BEHAVIOUR #
@@ -35,7 +35,7 @@ LP_PATH_KEEP=2
 # Do you want to display the hostname, even if not connected through network?
 # Defaults to 0 (do not display hostname when locally connected)
 # set to 1 if you want to always see the hostname
-LP_HOSTNAME_ALWAYS=0
+LP_HOSTNAME_ALWAYS=1
 
 # Do you want to display the user, even if he is the same than the logged one?
 # Defaults to 1 (always display the user)
@@ -49,7 +49,7 @@ LP_PERCENTS_ALWAYS=1
 
 # Do you want to use the permissions feature ?
 # Recommended value is 1
-LP_ENABLE_PERM=1
+LP_ENABLE_PERM=0
 
 # Do you want to use the shorten path feature ?
 # Recommended value is 1
@@ -65,11 +65,11 @@ LP_ENABLE_JOBS=1
 
 # Do you want to use the load feature ?
 # Recommended value is 1
-LP_ENABLE_LOAD=1
+LP_ENABLE_LOAD=0
 
 # Do you want to use the batt feature ?
 # Recommended value is 1
-LP_ENABLE_BATT=1
+LP_ENABLE_BATT=0
 
 # Do you want to use vcs features with root account
 # Recommended value is 0
@@ -81,19 +81,19 @@ LP_ENABLE_GIT=1
 
 # Do you want to use the svn special features ?
 # Recommended value is 1
-LP_ENABLE_SVN=1
+LP_ENABLE_SVN=0
 
 # Do you want to use the mercurial special features ?
 # Recommended value is 1
-LP_ENABLE_HG=1
+LP_ENABLE_HG=0
 
 # Do you want to use the fossil special features ?
 # Recommended value is 1
-LP_ENABLE_FOSSIL=1
+LP_ENABLE_FOSSIL=0
 
 # Do you want to use the bzr special features ?
 # Recommanded value is 1
-LP_ENABLE_BZR=1
+LP_ENABLE_BZR=0
 
 # Show time of the last prompt display
 # Recommended value is 0
@@ -101,7 +101,7 @@ LP_ENABLE_TIME=0
 
 # Show runtime of the last command if over LP_RUNTIME_THRESHOLD
 # Recommended value is 0
-LP_ENABLE_RUNTIME=0
+LP_ENABLE_RUNTIME=1
 
 # Minimal runtime to be displayed
 # Recommended value is 2
@@ -116,7 +116,7 @@ LP_ENABLE_VIRTUALENV=1
 LP_ENABLE_SCLS=1
 
 # Show average system temperature
-LP_ENABLE_TEMP=1
+LP_ENABLE_TEMP=0
 
 # When showing time, use an analog clock instead of numeric values.
 # The analog clock is "accurate" to the nearest half hour.
